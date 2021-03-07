@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+#contenedor{
+	display:grid;
+	grid-template-columns:repeat(3, auto);
+	grid-auto-rows:minmax(100px, auto);
+	overflow: auto;
+
+}
+
+
+#logo {
+	grid-column:1 / 2;
+	grid-row:1 / 2;
+
+}
+
+
+#menu {
+	grid-column:1 / 2;
+	grid-row:2 / 3;
+}
+#menu ul {
+	width:300px;
+	padding:0;
+	background-color: #333;
+}
+#menu ul li {
+	display:inline-block;
+	margin:5px;
+
+	color:white;
+	font-size:20px;
+}
+.menu{
+}
+.menu-des{
+	
+}
+.contenido-des{
+	display:none;
+	position: absolute;
+	background-color: grey;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.contenido-des a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.contenido-des a:hover {
+	background-color: #333;
+}
+.menu:hover .contenido-des {
+	display:block;
+}
+.menu:hover div .cuer-principal {
+	top:500px;
+}
+
+
+#formulario {
+	grid-column:1 / 2;
+	grid-row:3 / 6;
+	color:white;
+	overflow: auto;
+	width:300px;
+	padding:0 10px;
+	background-color: #333;
+	font-family: 'Yusei Magic', sans-serif;
+}
+.ident{
+	/*border:3px solid black;*/
+	width:50%;
+}
+
+
+.contact{
+	/*border:3px solid black;*/
+	width:50%;
+}
+.end {
+	/*border:3px solid black;*/
+	padding-top:30px;
+	text-align:left;
+	margin-bottom:30px;
+}
+button img {
+	width:50px;
+	height:35px;
+}
+h1 {
+	font-family: 'Potta One', cursive;
+	padding-bottom:5px;
+	border-bottom:2px solid gray;
+	text-shadow: 2px 2px gray;
+}
+p {
+	text-shadow: 1px 1px gray;
+	
+}
+
+
+#nota {
+	font-family: 'Yusei Magic', sans-serif;
+	grid-column:1 / 2;
+	grid-row:9 / 11;
+	margin-left:30px;
+	width:178px;
+	background-color: #333;
+	box-shadow: 10px 10px gray;
+
+}
+#nota h1{
+	margin-bottom:0;
+	padding-top:5px;
+}
+#nota h3 {
+	margin-left:40px;
+}
+h1, p, h3 {
+	color:white;
+	align-self:center;
+
+}
+#extra {
+	grid-column:1/ 2;
+	grid-row:7 / 9;
+	margin-left:30px;
+}
+
+
+
+
+
+
+

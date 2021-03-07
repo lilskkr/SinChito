@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+#contenedor{
+	display:block;
+	position:relative;
+	padding:0 50px;
+	overflow: auto;
+	margin:0 auto;
+}
+
+#logo {
+	position:relative;
+	top:20px;
+	left:50px;
+}
+
+
+#menu {
+	position:fixed;
+	left:350px;
+	top:0;
+}
+#menu ul {
+	width:700px;
+	background-color: #333;
+}
+#menu ul li {
+	display:inline-block;
+	margin:10px;
+	margin-left:15px;
+	color:white;
+	font-size:20px;
+}
+.menu{
+}
+.menu-des{
+	
+}
+.contenido-des{
+	display:none;
+	position: absolute;
+	background-color: grey;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.contenido-des a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.contenido-des a:hover {
+	background-color: #333;
+}
+.menu:hover .contenido-des {
+	display:block;
+}
+.menu:hover div .cuer-principal {
+	top:500px;
+}
+
+
+
+
+
+#cuer-principal{
+	margin-top:20px;
+	margin-left:100px;
+}	
+#cuer-principal img {
+	padding-top:20px;
+	border-top: 3px solid #333;
+	padding-bottom:20px;
+	border-bottom: 3px solid #333;
+}
+
+
+
+#ropa {
+	margin-left:50px;
+}
+#ropa div {
+	float:left;
+
+}
+#ropa div img {
+	width:290px;
+}
+#ropa .diez, .once, .doce{
+	width:410px;
+
+}
+.uno {
+	clear:left;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+	margin-top:30px;
+}
+.dos {
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+	border-left:2px solid black;
+	margin-top:30px;
+}
+.tres {
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	margin-top:30px;
+}
+.cuatro{
+		clear:left;
+	border-right:2px solid black;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+.cinco {
+	border-right:2px solid black;
+	border-left:2px solid black;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+.seis{
+	border-left:2px solid black;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+.siete{
+		clear:left;
+	border-right:2px solid black;
+	border-top:2px solid black;
+}
+.ocho{
+	border-right:2px solid black;
+	border-top:2px solid black;
+	border-left:2px solid black;
+}
+.nueve{
+	border-left:2px solid black;
+	border-top:2px solid black;
+}
+.diez{
+	clear:left;
+}
+.diez, .once, .doce {
+	margin-top:40px;
+}
+
+
+#nota {
+	font-family: 'Yusei Magic', sans-serif;
+	position:absolute;
+	left:40px;
+	top:130px;
+	width:178px;
+	padding-top:170px;
+	background-color: #333;
+	box-shadow: 10px 10px gray;
+}
+#nota h1{
+	margin-bottom:0;
+	padding-top:5px;
+}
+#nota h3 {
+	margin-left:40px;
+}
+h1, p, h3 {
+	color:white;
+
+}
+#extra {
+	position:absolute;
+	left:40px;
+	top:130px;
+}

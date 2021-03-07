@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+#contenedor{
+	width:1200px;
+	display:block;
+	position:relative;
+	margin:0 auto;
+}
+
+#logo {
+	position:relative;
+	top:46px;
+	left:0;
+	
+}
+
+
+#menu {
+	
+	position:fixed;
+	left:300px;
+	top:0;
+}
+#menu ul {
+	width:800px;
+	background-color: #333;
+}
+#menu ul li {
+	display:inline-block;
+	margin:10px;
+	margin-left:15px;
+	color:white;
+	font-size:20px;
+}
+.menu{
+}
+.menu-des{
+	
+}
+.contenido-des{
+	display:none;
+	position: absolute;
+	background-color: grey;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 2;
+}
+.contenido-des a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.contenido-des a:hover {
+	background-color: #333;
+}
+.menu:hover .contenido-des {
+	display:block;
+}
+.menu:hover div .cuer-principal {
+	top:500px;
+}
+
+#formulario {
+	box-shadow: 10px 10px gray;
+	color:white;
+	position:relative;
+	top:190px;
+	left:250px;
+	width:600px;
+	padding:0 10px;
+	background-color: #333;
+	text-align:center;
+	font-family: 'Yusei Magic', sans-serif;
+}
+.ident{
+	/*border:3px solid black;*/
+	padding-right:0;
+	width:49%;
+	float:left;
+	text-align:left;
+	border-right:2px solid gray;
+}
+
+.contact{
+	/*border:3px solid black;*/
+	border-left:2px solid gray;
+	width:50%;
+	float:left;
+	text-align:left;
+
+}
+.end {
+	/*border:3px solid black;*/
+	padding-top:30px;
+	clear:right;	
+	text-align:left;
+	margin-bottom:30px;
+}
+button img {
+	width:50px;
+	height:35px;
+}
+h1 {
+	font-family: 'Potta One', cursive;
+	padding-bottom:5px;
+	border-bottom:2px solid gray;
+	text-shadow: 2px 2px gray;
+}
+p {
+	text-shadow: 1px 1px gray;
+}
+
+
+#nota {
+	font-family: 'Yusei Magic', sans-serif;
+	position:absolute;
+	left:0;
+	top:270px;
+	width:178px;
+	padding-top:170px;
+	background-color: #333;
+	 box-shadow: 10px 10px gray;
+}
+#nota h1{
+	margin-bottom:0;
+	padding-top:5px;
+}
+#nota h3 {
+	margin-left:40px;
+}
+h1, p, h3 {
+	color:white;
+
+}
+#extra {
+	position:absolute;
+	left:0;
+	top:270px;
+}

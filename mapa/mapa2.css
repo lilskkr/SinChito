@@ -1,0 +1,111 @@
+
+#contenedor{
+	display:flex;
+	flex-direction: column;
+	padding:0 50px;
+	overflow: auto;
+	margin:0 auto;
+}
+
+
+#logo {
+	order: 1;
+	display:flex;
+	justify-content:center;
+}
+
+
+#menu {
+	order: 2;
+	display:flex;
+	justify-content:center;
+
+}
+#menu ul {
+	width:500px;
+	background-color: #333;
+}
+#menu ul li {
+	display:inline-block;
+	margin:10px;
+	margin-left:15px;
+	color:white;
+	font-size:20px;
+}
+.menu{
+}
+.menu-des{
+	
+}
+.contenido-des{
+	display:none;
+	display: none;
+	position: absolute;
+	background-color: grey;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.contenido-des a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.contenido-des a:hover {
+	background-color: #333;
+}
+.menu:hover .contenido-des {
+	display:block;
+}
+.menu:hover div .cuer-principal {
+	top:500px;
+}
+
+
+#mapa {
+	order: 3;
+	display:flex;
+	justify-content:center;
+	margin:0 auto;
+	background-color: #333;
+	box-shadow: 10px 10px gray;
+}
+iframe {
+	margin:15px;
+	width:650px;
+	height:450px;
+}
+
+
+
+#nota {
+	font-family: 'Yusei Magic', sans-serif;
+	display:flex;
+	flex-flow: column wrap;
+	justify-content:flex-end;
+	order: 6;
+	width:178px;
+	background-color: #333;
+	box-shadow: 10px 10px gray;
+		margin:0 auto;
+}
+#nota h1{
+	margin-bottom:0;
+	padding-top:5px;
+}
+#nota h3 {
+	margin-left:40px;
+}
+h1, p, h3 {
+	color:white;
+	align-self:center;
+
+}
+#extra {
+	display:flex;
+		justify-content:center;
+	order: 5;
+	margin-top:50px;
+}

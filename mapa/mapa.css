@@ -1,0 +1,7 @@
+@import url("mapa3.css") screen and (max-width: 400px);
+@import url("mapa2.css") screen and (min-width: 401px) and (max-width: 999px);
+@import url("mapa1.css") screen and (min-width: 1000px);
+a{
+	color: white;
+	text-decoration:none;
+}

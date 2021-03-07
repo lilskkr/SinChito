@@ -1,0 +1,8 @@
+@import url("menu3.css") screen and (max-width: 400px);
+@import url("menu2.css") screen and (min-width: 401px) and (max-width: 999px);
+@import url("menu11.css") screen and (min-width: 1000px) and (max-width: 1249px);
+@import url("menu1.css") screen and (min-width: 1250px);
+a{
+	color: white;
+	text-decoration:none;
+}

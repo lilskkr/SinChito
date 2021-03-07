@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+#contenedor{
+	display:grid;
+	grid-template-columns:repeat(3, auto);
+	grid-auto-rows:minmax(100px, auto);
+	padding:0 50px;
+	overflow: auto;
+	margin:0 auto;
+}
+
+
+#logo {
+	grid-column:1 / 4;
+	grid-row:1 / 2;
+
+}
+
+
+#menu {
+	grid-column:1 / 4;
+	grid-row:2 / 4;
+}
+#menu ul {
+	width:500px;
+	background-color: #333;
+}
+#menu ul li {
+	display:inline-block;
+	margin:5px;
+	margin-left:15px;
+	color:white;
+	font-size:20px;
+}
+.menu{
+}
+.menu-des{
+	
+}
+.contenido-des{
+	display:none;
+	position: absolute;
+	background-color: grey;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.contenido-des a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.contenido-des a:hover {
+	background-color: #333;
+}
+.menu:hover .contenido-des {
+	display:block;
+}
+.menu:hover div .cuer-principal {
+	top:500px;
+}
+
+
+
+
+
+#cuer-principal{
+	grid-column:1 / 4;
+	grid-row:4 / 6;
+
+}	
+
+#cuer-principal img {
+	width:350px;
+}
+
+
+
+#ropa {
+	grid-column:1 / 4;
+	grid-row:6 / 10;
+	display:grid;
+	grid-template-columns:repeat(3, auto);
+	grid-auto-rows:minmax(100px, auto);
+	grid-template-areas:
+		"a a . ."
+		"b b . ."
+		"c c . ."
+		"d d . ."
+		"e e . ."
+		"f f . ."
+		"g g . ."
+		"h h . ."
+		"i i . ."
+		"j j . ."
+		"k k . ."
+		"l l . ."
+
+}
+#ropa div {
+	
+	display:flex;
+	justify-content:center;
+
+}
+#ropa div img {
+	width:200px;
+}
+#ropa .diez, .once, .doce{
+	width:410px;
+
+}
+.uno {
+	grid-area: a;
+	margin-top:30px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	
+}
+.dos {
+	grid-area: b;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.tres {
+	grid-area: c;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.cuatro{
+	grid-area: d;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.cinco {
+	grid-area: e;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.seis{
+	grid-area: f;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.siete{
+	grid-area: g;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.ocho{
+	grid-area: h;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.nueve{
+	grid-area: i;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+.diez{
+	grid-area: j;
+	margin-top:40px;
+}
+.once{
+	grid-area: k;
+}
+.doce{
+	grid-area: l;
+}
+
+.diez, .once, .doce {
+	padding:0;
+}
+
+
+#nota {
+	font-family: 'Yusei Magic', sans-serif;
+	grid-column:1 / 2;
+	grid-row:11 / 12;
+	width:178px;
+	background-color: #333;
+	box-shadow: 10px 10px gray;
+	margin:0 auto;
+}
+#nota h1{
+	margin-bottom:0;
+	padding-top:5px;
+}
+#nota h3 {
+	margin-left:40px;
+}
+h1, p, h3 {
+	color:white;
+	align-self:center;
+
+}
+#extra {
+	grid-column:1/ 2;
+	grid-row:10 / 11;
+	margin-top:50px;
+}
